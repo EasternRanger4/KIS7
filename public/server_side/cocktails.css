@@ -1,0 +1,46 @@
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.cocktail {
+    border: 1px solid lightgray;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    width: 49%;
+    display: inline-block;
+    height: 300px;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.cocktail-box {
+    border: 1px solid lightgray;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    width: fit-content;
+    display: inline-block;
+    height: fit-content;
+}

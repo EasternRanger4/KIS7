@@ -1,0 +1,147 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+body {
+    font-family:  Mono, monospace;
+}
+  .company-name {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  
+  nav {
+    margin-left: auto;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  p {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+/* Tube Time Menu */
+#tube-time-heading:hover #tube-time-dropdown{
+  display: block;
+}
+#tube-time-heading:active {
+  background-color: #e5e5e5;
+}
+#tube-time-heading:active::after {
+  content: "▼";
+  margin-left:5px;
+}
+
+/* Server Side Menu */
+#tube-time-heading:hover #server-side-dropdown{
+  display: block;
+}
+#server-side-heading:active {
+  background-color: #e5e5e5;
+}
+#server-side-heading:active::after {
+  content: "▼";
+  margin-left:5px;
+}
+
+/* Python Menu */
+#python-download-heading:hover #python-download-dropdown{
+  display: block;
+}
+#python-download-heading:active {
+  background-color: #e5e5e5;
+}
+#python-download-heading:active::after {
+  content: "▼";
+  margin-left:5px;
+}
+
+/* Acc */
+#acc-heading:hover #acc-dropdown{
+  display: block;
+}
+#acc-heading:active {
+  background-color: #e5e5e5;
+}
+#acc-heading:active::after {
+  content: "▼";
+  margin-left:5px;
+}
+
+/* Dropdown Menu */
+.dropdown-content{
+    display: none;
+}
+/* Container for the dropdown menu */
+.dropdown-content {
+  top: 10%;
+  display: none; /* hide the menu by default */
+  position: absolute; /* position the menu relative to the heading */
+  background-color: #f9f9f9; /* set the background color of the menu */
+  min-width: 160px; /* set the minimum width of the menu */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* add a drop shadow to the menu */
+  z-index: 1; /* make sure the menu appears above other elements */
+}
+/* Style the links within the menu */
+.dropdown-content a {
+  color: black; /* set the text color of the links */
+  padding: 12px 16px; /* add some padding to the links */
+  text-decoration: none; /* remove the underline from the links */
+  display: block; /* make sure the links are displayed on separate lines */
+}
+
+.dropdown-content span {
+  color: black; /* set the text color of the links */
+  padding: 12px 16px; /* add some padding to the links */
+  text-decoration: none; /* remove the underline from the links */
+  display: block; /* make sure the links are displayed on separate lines */
+}
+/* Style the hover state of the links within the menu */
+.dropdown-content a:hover {
+  background-color: #f1f1f1; /* change the background color of the links on hover */
+}
+.dropdown-content {
+  transition: all 0.3s ease-in-out;
+}
+.close-button {
+  background-color: #f44336; /* red */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

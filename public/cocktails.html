@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Meta Data-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <!--User Head Data-->
+        <title>Login - Kamran Industries</title>
+        <link href="home_extra/style.css" rel="stylesheet" type="text/css" />
+        <link href="server_side/cocktails.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <div class="company-name">Kamran Industries</div>
+            <nav>
+              <a href="home.html" id="home-heading">Home</a>
+              <a href="#" id="tube-time-heading">Tube Time</a>
+              <div id="tube-time-dropdown" class="dropdown-content">
+                <button class="close-button" id="close-button-tube-time">X</button>
+                <a href="#">Home</a>
+                <a href="#">Train Times</a>
+                <a href="#">Train Status National Rail</a>
+                <a href="#">Train Status TFl</a>
+                <a href="#">Track the ISS</a>
+              </div>
+              <a href="#" id="server-side-heading">Server Side</a>
+              <div id="server-side-dropdown" class="dropdown-content">
+                <button class="close-button" id="close-button-server-side">X</button>
+                <a href="#">Home</a>
+                <a href="#">Order Coffe</a>
+                <a href="cocktails.html">Order Cocktails</a>
+              </div>
+              <a href="#" id="python-download-heading">Python Download</a>
+              <div id="python-download-dropdown" class="dropdown-content">
+                <button class="close-button" id="close-button-python-download">X</button>
+                <a href="#">Option 1 PY</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </div>
+              <span id="login"></span>
+            </nav>
+          </header>
+          <body>
+            <h1>Tailor’s Cocktail Menu</h1>
+            <!-- Martinis -->
+            <h2>Martinis</h2>
+            <div class="cocktail-box">
+              <div class="cocktail-name">Chocolate Espresso Martini</div>
+              <div>2x Espresso, 1xCreme de Cacao, 1x Vodka, 1x White Rum</div>
+              <button onclick="orderCocktail('Chocolate Espresso Martini')">Order</button>
+            </div>
+            <div class="cocktail-box">
+              <div class="cocktail-name">Dirty Martini</div>
+              <div>2.5x Gin, 1x Vermouth, 1x Olive brine, Olives</div>
+              <button onclick="orderCocktail('Dirty Martini')">Order</button>
+            </div>
+            <div class="cocktail-box">
+              <div class="cocktail-name">Vesper Martini</div>
+              <div>2x Gin, 1x Vodka, ½x Vermouth, Lemon zest</div>
+              <button onclick="orderCocktail('Vesper Martini')">Order</button>
+            </div>
+            <div class="cocktail-box">
+              <div class="cocktail-name">Chocolate Orange Martini</div>
+              <div>2x Vodka, 1x Creme de Cacao, ½x Cointreau</div>
+              <button onclick="orderCocktail('Chocolate Orange Martini')">Order</button>
+            </div>
+            <div class="cocktail-box">
+              <div class="cocktail-name">Twentieth Century Cocktail</div>
+              <div>2x Gin, ½x Creme de Cacao, ½x Vermouth, ¼x Lemon juice</div>
+              <button onclick="orderCocktail('Twentieth Century Cocktail')">Order</button>
+            </div>
+            <!-- Tequila -->
+            <h2>Tequila</h2>
+            <div class="cocktail-box">
+              <div class="cocktail-name">Soho House Picante</div>
+              <div>2x Tequila, 1x Lime, ¾x Agave Nectar, Chilli, Coriander</div>
+              <button onclick="orderCocktail('Soho House Picante')">Order</button>
+            </div>
+            <div class="cocktail-box">
+              <div class="cocktail-name">Margarita</div>
+              <div>2x Tequila, 1x Cointreau, 1x Lime</div>
+              <button onclick="orderCocktail('Margarita')">Order</button>
+
+          <script>
+            function orderCocktails(cocktailName) {
+              // Add your code here to handle the ordering of the selected cocktail
+              alert('You ordered a ' + cocktailName);
+            }
+          </script>
+          </html>          
+    </body>
+    <script src="loginManager.js"></script>
+    <script src="https://kit.fontawesome.com/36b08f27c3.js" crossorigin="anonymous"></script>
+</html>
